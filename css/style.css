@@ -1,0 +1,273 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #a9d7d1;
+}
+.title{
+    text-align: center;
+}
+.form{
+    background-color: #fafafa;
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.let-us-know{
+    padding: 20px 0 10px 0; 
+}
+#data-form{
+    text-align: center;
+    display: block;
+}
+.input-personal-info{
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.last-one{
+    padding-bottom: 25px;
+}
+.info-label{
+    text-align: right;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    padding-right: 15px;
+}
+.info-label-class{
+    text-align: right;
+}
+.info-input{
+    display: inline-block;
+    width: 48%;
+    text-align: left;
+    vertical-align: middle;
+}
+.info-input-class{
+    padding: 5px 0 5px 3px;
+    width: 70%;
+    height: 20px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+.current-role-options{
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.role-options-label{
+    display:inline-block;
+    width: 40%;
+    text-align: right;
+    padding-right: 14px;
+}
+.options-role{
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    text-align: left;
+}
+.roles{
+    box-sizing: border-box;
+    width: 140px;
+    padding: 5px 0 5px 3px;
+    height: 35px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+.recommend-freeCodeCamp{
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.recommend-label{
+    text-align: right;
+    width: 40%;
+    display: inline-block;
+    padding-right: 13px;
+}
+.recommend-input{
+    display: inline-block;
+    width: 48%;
+    text-align: left;
+    vertical-align: top;
+}
+.reccs{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    
+}
+.recc-input{
+    padding-right: 5px;
+}
+.like-most-FCC{
+    text-align: center;
+    display: block;
+    padding-bottom: 35px;
+}
+.most-FCC-label{
+    text-align: right;
+    display: inline-block;
+    width: 40%;
+    padding-right: 14px;
+}
+.fcc-options{
+    text-align: left;
+    display: inline-block;
+    width: 48%;
+    height: 20px;
+}
+.option-choice{
+    padding: 5px 0 5px 3px;
+    height: 35px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+    width: 140px;
+}
+.improved{
+    padding-bottom: 30px;
+    display: block;
+    text-align: center;
+}
+.improved-label-div{
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    width: 40%;
+    padding-right: 14px;
+}
+.improved-input{
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: top;
+}
+.input-box{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+.check-box{
+    padding-right: 5px;
+}
+[type="checkbox"]{
+    padding-bottom: 50px;
+}
+.comments{
+    padding-bottom: 20px;
+    text-align: center;
+    display: block;
+}
+.comments-label{
+    display: inline-block;
+    width: 40%;
+    text-align: right;  
+    vertical-align: top;
+    padding-right: 14px;
+}
+.comments-text{
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    width: 48%;
+}
+#box{
+    height: 50px;
+    width: 70%;
+    border: 1px solid #c0c0c0;
+    color: #757575;
+    padding: 5px 0 0 3px;
+}
+[type="submit"]{
+    background-color: #59ace0;
+    color: #ffffff;
+    padding: 10px 23px 10px 23px;
+    border-radius: 3px;
+    border: none;
+    font-size: 17px;
+}
+
+@media only screen and (min-width: 360px) and (max-width:640px){
+    .info-label{
+        text-align: left;
+        display: inline-block;
+        width: 100%;
+        vertical-align: top;
+        padding:0 0 15px 10px; 
+    }
+    .info-input{
+        display: inline-block;
+        width: 100%;
+        text-align: left;
+        vertical-align: middle;
+        padding-left: 15px;
+    }
+    .info-input-class{
+        width: 80%;
+    }
+    .role-options-label{
+        display:block;
+        width: 91%;
+        text-align: left;
+        padding: 0 0 15px 15px;
+    }
+    .options-role{
+        display: block;
+        width: 48%;
+        text-align: left;
+        padding-left: 25px;
+    }
+    .recommend-freeCodeCamp{
+        padding-bottom: 30px;
+    }
+    .recommend-label{
+        text-align: left;
+        width: 100%;
+        display: block;
+        padding:0 0 15px 15px;
+    }
+    .recommend-input{
+        display: block;
+        width: 48%;
+        text-align: left;
+        padding-left: 20px;
+    }
+    .most-FCC-label{
+        text-align: left;
+        display: block;
+        width: 100%;
+        padding:0 0 20px 20px;
+    }
+    .fcc-options{
+        text-align: left;
+        display: block;
+        width: 48%;
+        height: 20px;
+        padding-left:25px; 
+    }
+    .improved-label-div{
+        display: block;
+        text-align: left;
+        width: 90%;
+        padding:0 0 20px 20px;
+    }
+    .improved-input{
+        display: block;
+        text-align: left;
+        width: 48%;
+        padding-left: 20px;
+    }
+    .comments-label{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding-bottom:15px;   
+    }
+    .comments-text{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+}
